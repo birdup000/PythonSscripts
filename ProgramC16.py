@@ -7,13 +7,12 @@ while want_to_run_program == 'y':
     item_prices = []
     want_to_add_items = 'y'
     while True:
-<<<<<<< HEAD
         New_Name = input("What is the name of this item?")
         if New_Name == 'None':
             break
         else:
             item_names.append(New_Name)
-        New_Price = float(int(input("What is the price of this item? (please don't use a $ symbol)")))
+        New_Price = float(input("What is the price of this item? (please don't use a $ symbol)"))
         New_Price = round(New_Price, 2)
         if New_Price == '0':
             item_names.pop
@@ -21,11 +20,8 @@ while want_to_run_program == 'y':
         else:
             item_names.append(New_Price)
     allitems = item_names
-=======
-        New_Name = input("What is the name of your first item?")
 
-
-
-allitems = (items)
-print(allitems)
->>>>>>> 4f60d17e67125cfe751962d31ec1f457de6a6c70
+    print("You purchased", allitems)
+    allitemprices = sum(item_prices)
+    print("These purchases cost a total of ${}".format(allitemprices))
+    want_to_add_items = input("Do you want to run this program (y/n).")
