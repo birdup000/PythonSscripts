@@ -17,7 +17,7 @@ while want_to_run_program == 'y':
             item_names.append(New_Name)
         New_Price = float(input("What is the price of this item? (please don't use a $ symbol)"))
         New_Price = round(New_Price, 2)
-        if New_Price == '0':
+        if New_Price == 0:
             item_prices.pop
             break
         else:
