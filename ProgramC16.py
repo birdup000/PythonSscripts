@@ -7,6 +7,7 @@ while want_to_run_program == 'y':
     item_prices = []
     want_to_add_items = 'y'
     while True:
+<<<<<<< HEAD
         New_Name = input("What is the name of this item?")
         if New_Name == 'None':
             break
@@ -20,3 +21,11 @@ while want_to_run_program == 'y':
         else:
             item_names.append(New_Price)
     allitems = item_names
+=======
+        New_Name = input("What is the name of your first item?")
+
+
+
+allitems = (items)
+print(allitems)
+>>>>>>> 4f60d17e67125cfe751962d31ec1f457de6a6c70
