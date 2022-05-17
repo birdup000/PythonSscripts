@@ -9,3 +9,9 @@ while want_to_run_program == 'y':
     while True:
         New_Name = input("What is the name of your first item?")
         
+
+
+
+
+allprice = ()
+        print(allprice)
