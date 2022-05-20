@@ -1,10 +1,5 @@
-##Create program ask input and set varible from input
-
-Milaged1 = int(input("How many miles did you travel day 1?"))
-Milaged2 = int(input("How many miles did you travel day 2?"))
-Milaged3 = int(input("How many miles did you travel day 3?"))
-Milaged4 = int(input("How many miles did you travel day 4?"))
-Milaged5 = int(input("How many miles did you travel day 5?"))
-Milagetotal = (Milaged1 + Milaged2 + Milaged3 + Milaged4 + Milaged5)
-
-print (Milagetotal)
+Pizzacount = int(input("How many slices of Pizza did you eat?"))
+multipiz = 375
+Pizzaco = multipiz*Pizzacount
+calorieburn = Pizzaco/100
+print("This is how much miles you need to burn the consumed calories",calorieburn,"miles")
