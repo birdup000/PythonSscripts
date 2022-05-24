@@ -9,7 +9,7 @@ teammember5= 0
 teammember1 = int(input("What's your milage? "))
 print("Your mileage is ",teammember1)
 ##correct way of adding with the = not the == and also the variable in front instead of behind
-totalteammember= teammember1 + teammember2 + teammember3 + teammember4 + teammember5
+totalteammember = teammember1 + teammember2 + teammember3 + teammember4 + teammember5
 print("The current total team milage:",totalteammember)
 
 
@@ -23,7 +23,7 @@ print("The current total team milage:",totalteammember)
 
 teammember3 = int(input("Enter your milage here "))
 print("your mileage",teammember3)
-teammember1 + teammember2 + teammember3 + teammember4 + teammember5 == totalteammember 
+totalteammember = teammember1 + teammember2 + teammember3 + teammember4 + teammember5 
 
 print("The current total team milage:",totalteammember)
 
@@ -31,14 +31,14 @@ print("The current total team milage:",totalteammember)
 
 teammember4 = int(input("Enter your milage here "))
 print("your mileage",teammember5)
-teammember1 + teammember2 + teammember3 + teammember4 + teammember5 == totalteammember 
+totalteammember = teammember1 + teammember2 + teammember3 + teammember4 + teammember5 
 
 print("The current total team milage:",totalteammember)
 
 
 teammember5 = int(input("Enter your milage here "))
 print("your mileage",teammember5)
-teammember1 + teammember2 + teammember3 + teammember4 + teammember5 == totalteammember 
+totalteammember = teammember1 + teammember2 + teammember3 + teammember4 + teammember5
 
 print("The current total team milage:",totalteammember)
    
