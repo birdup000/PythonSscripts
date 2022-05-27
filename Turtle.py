@@ -10,7 +10,7 @@ tim.forward(80)
 tim.left(45)
 tim.forward(80)
 tim.left(90)
-tim.forward(90)
+tim.forward(90) 
 turtle.clearscreen()
 jeb = turtle
 jeb.screensize(500)
